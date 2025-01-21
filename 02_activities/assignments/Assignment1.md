@@ -212,9 +212,10 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 ```
 Your thoughts...
 
+```
+
 Data collection is often biased. This is evident in healthcare, where data is often collected from populations that do not adequately represent minority or marginalized groups. As a result, studies frequently generalize these findings to all individuals, which can lead to misdiagnoses or ineffective treatments for underrepresented populations.
 
 Another instance where politics, values and technology intersect can be observed in the banking sector. A notable example involves a friend of mine in Canada on a student visa with a valid work permit who was unable to open a bank account at a particular institution. This was due to the bank's database not including their country of citizenship as an acceptable value, effectively excluding them from access to essential financial services.
 
 
-```
