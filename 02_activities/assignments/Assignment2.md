@@ -63,7 +63,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Answer
+Answer below
 ```
 We could add a column named customer_address to the Customers table. If a customer's address changes, the data in that customer's customer_address column is overwritten by the new address. This is a Type 1 slowly changing dimension.
 
@@ -194,7 +194,7 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+Your thoughts... below
 ```
 The article touches on how biases can be unintentionally embedded in training datasets during their creation. For instance, when training a model to recognize a "leader," the perception of what a leader looks like will vary based on the demographics of the individuals labeling the images. People in Asia, for example, may have a different visual representation of a leader compared to those in Europe.
 
