@@ -45,8 +45,17 @@ There are several tools online you can use, I'd recommend [Draw.io](https://www.
 
 **HINT:** You do not need to create any data for this prompt. This is a conceptual model only. 
 
+I came up with the following ERD:
+
+<img src="./images/A2-Task1-Prompt1.drawio.png" width="700">
+
+
 #### Prompt 2
 We want to create employee shifts, splitting up the day into morning and evening. Add this to the ERD.
+
+I came up with the following:
+<img src="./images/A2-Task1-Prompt2.drawio.png" width="900">
+
 
 #### Prompt 3
 The store wants to keep customer addresses. Propose two architectures for the CUSTOMER_ADDRESS table, one that will retain changes, and another that will overwrite. Which is type 1, which is type 2? 
@@ -54,8 +63,11 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Answer below
 ```
+We could add a column named customer_address to the Customers table. If a customer's address changes, the data in that customer's customer_address column is overwritten by the new address. This is a Type 1 slowly changing dimension.
+
+Another option is to create a new table called customer_address with columns customer_id, address (could be split up into street, city, state/province, zipcode), from_date, to_date. Everytime a customer's address changes, we adjust the to_date of the previous address, and add a row with the new address to the table. This is a Type 2 slowly changing dimension.
 
 ***
 
@@ -182,5 +194,14 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+Your thoughts... below
 ```
+The article touches on how biases can be unintentionally embedded in training datasets during their creation.  The people labeling the data bring their own cultural and societal perspectives, which influence the final dataset. If a dataset used to train an AI model is predominantly labeled by one demographic group, the model may develop an implicit bias toward that group's perspective.
+
+For instance, if most of the labeled images of "leaders" in a dataset feature older men in suits, the model may struggle to recognize women or younger individuals as leaders. This type of bias can reinforce stereotypes rather than challenge them.
+
+Some traits, like leadership or criminality, are not inherently tied to physical appearance, so training AI to recognize them based on images is problematic and can reinforce harmful stereotypes. There's no universal "look" of a leader or a criminal—these are social constructs influenced by culture, history, and bias.
+
+AI should not be used to make judgments about individuals based on appearance, especially for subjective or ethically sensitive traits. Instead, AI should focus on objective and measurable tasks, avoiding areas where human bias can be amplified in dangerous ways.
+
+Additionally, the article highlights that dataset creation is often carried out by graduate students or remote workers seeking supplemental income. These contributors are not always fairly compensated for their labor, raising ethical concerns about the data annotation process.

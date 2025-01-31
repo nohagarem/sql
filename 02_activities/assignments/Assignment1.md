@@ -106,6 +106,11 @@ Please do not pick the exact same tables that I have already diagrammed. For exa
 	- <img src="./images/01_farmers_market_conceptual_model.png" width="600">
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
 
+I drew the logical data model for the tables `vendor_booth_assignments` and `vendor_inventory`.
+
+<img src="./images/A1-Task1-Logical Data Model.png" width="500">
+
+
 ***
 
 ## Section 2:
@@ -206,4 +211,11 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 ```
 Your thoughts...
+
 ```
+
+Data collection is often biased. This is evident in healthcare, where data is often collected from populations that do not adequately represent minority or marginalized groups. As a result, studies frequently generalize these findings to all individuals, which can lead to misdiagnoses or ineffective treatments for underrepresented populations.
+
+Another instance where politics, values and technology intersect can be observed in the banking sector. A notable example involves a friend of mine in Canada on a student visa with a valid work permit who was unable to open a bank account at a particular institution. This was due to the bank's database not including their country of citizenship as an acceptable value, effectively excluding them from access to essential financial services.
+
+
