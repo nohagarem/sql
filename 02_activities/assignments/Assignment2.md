@@ -196,6 +196,12 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 ```
 Your thoughts... below
 ```
-The article touches on how biases can be unintentionally embedded in training datasets during their creation. For instance, when training a model to recognize a "leader," the perception of what a leader looks like will vary based on the demographics of the individuals labeling the images. People in Asia, for example, may have a different visual representation of a leader compared to those in Europe.
+The article touches on how biases can be unintentionally embedded in training datasets during their creation.  The people labeling the data bring their own cultural and societal perspectives, which influence the final dataset. If a dataset used to train an AI model is predominantly labeled by one demographic group, the model may develop an implicit bias toward that group's perspective.
+
+For instance, if most of the labeled images of "leaders" in a dataset feature older men in suits, the model may struggle to recognize women or younger individuals as leaders. This type of bias can reinforce stereotypes rather than challenge them.
+
+Some traits, like leadership or criminality, are not inherently tied to physical appearance, so training AI to recognize them based on images is problematic and can reinforce harmful stereotypes. There's no universal "look" of a leader or a criminal—these are social constructs influenced by culture, history, and bias.
+
+AI should not be used to make judgments about individuals based on appearance, especially for subjective or ethically sensitive traits. Instead, AI should focus on objective and measurable tasks, avoiding areas where human bias can be amplified in dangerous ways.
 
 Additionally, the article highlights that dataset creation is often carried out by graduate students or remote workers seeking supplemental income. These contributors are not always fairly compensated for their labor, raising ethical concerns about the data annotation process.
